@@ -1,0 +1,205 @@
+.section-container {
+    border-bottom: 2px solid;
+    border-image-source: linear-gradient(270deg, rgba(2, 150, 255, 0) -1.67%, rgba(2, 150, 255, 0.505208) 46.82%, rgba(2, 150, 255, 0) 95.31%);
+    padding: 10px;
+    background-image: url("../../assets/img/heroBG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.cyber-security {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 95px 85px;
+    flex-wrap: wrap;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 740px;
+    align-self: self-start;
+}
+
+.description-title {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
+
+.description-txt {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #B0B0B0;
+}
+
+.buttons-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.get-started-btn,
+.learn-more-btn {
+    padding: 14px 0px;
+    border-radius: 10px;
+    width: 235px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+}
+
+.get-started-btn {
+    background: #008FF5;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.learn-more-btn {
+    background: linear-gradient(0deg, rgba(0, 143, 245, 0.47), rgba(0, 143, 245, 0.47)),
+        linear-gradient(0deg, rgba(0, 143, 245, 0.14), rgba(0, 143, 245, 0.14));
+
+    border: 3px solid #008FF578;
+    color: #B0B0B0;
+
+}
+
+.achievments {
+    margin: 50px 85px;
+}
+
+.achievement-title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    color: white;
+    max-width:
+        1003px;
+}
+
+.achievments-description {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #B0B0B0;
+    max-width: 750px;
+}
+
+.achievments-description-container {
+    display: flex;
+    margin: 50px auto;
+    align-items: center;
+}
+
+.cards-container {
+    display: flex;
+    gap: 10px;
+}
+
+.achievments {
+    border: 2px solid;
+    border-image-source: linear-gradient(270deg, rgba(2, 150, 255, 0) -1.67%, rgba(2, 150, 255, 0.505208) 46.82%, rgba(2, 150, 255, 0) 95.31%);
+}
+
+.data-security-container,
+.modern-security-container {
+    margin: 250px 85px;
+    display: flex;
+    align-items: center;
+}
+
+.modern-security-card-title {
+    display: flex;
+    gap: 10px;
+}
+
+.modern-security-card-title>p {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: white;
+}
+.modern-security{
+    display:flex;
+    flex-direction: column;
+    gap:75px;
+    align-items: flex-start;
+}
+
+.modern-security-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    border-radius: 20px;
+    border: 2px solid #2E3546;
+    padding:20px;
+}
+
+.modern-securty-card-description {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #B0B0B0;
+
+}
+.arrow-img-container{
+    border: 2px solid #384156;
+    border-radius:15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-img-container > img {
+    object-fit: cover;
+    padding:10px;
+}
+.pricing-section-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.pricing-title{
+    text-align: center;
+
+}
+.pricing-title > .pricing {
+font-size: 60px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: 0em;
+color:white;
+}
+.pricing-description{
+font-size: 25px;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: 0em;
+color: #B0B0B0;
+max-width:820px;
+}
+.pricing-section-container{
+    margin: 50px 85px;
+}
+.offer-cards-container{
+    display:flex;
+    gap:10px;
+    margin:100px 0px;
+}
